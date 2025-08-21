@@ -11,22 +11,24 @@
     "build": "echo 'No build step for backend'"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
+    "@sentry/node": "^10.5.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1",
     "cors": "^2.8.5",
-    "helmet": "^4.4.1",
+    "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",
+    "googleapis": "^156.0.0",
+    "helmet": "^4.4.1",
     "joi": "^17.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.2",
     "nodemailer": "^6.4.11",
-    "sentry-node": "^6.13.0"
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "jest": "^26.6.3",
-    "supertest": "^6.1.6",
     "eslint": "^7.14.0",
-    "nodemon": "^2.0.7"
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^6.1.6"
   },
   "engines": {
     "node": ">=14.0.0"
